@@ -13,10 +13,10 @@ group = project.maven_group
 repositories {
     maven { url 'https://jitpack.io' }
     maven {
-        name = "Modrinth"
-        url = "https://api.modrinth.com/maven"
+        name = "Sodium"
+        url = "https://github.com/HitsukaShin/sodium-fabric.git"
         content {
-            includeGroup "maven.modrinth"
+            includeGroup "Sodium"
         }
     }
 }
